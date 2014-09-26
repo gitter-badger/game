@@ -1,0 +1,61 @@
+game
+====
+
+game usando canvas
+
+<!DOCTYPE html>
+
+		<html leng="en">
+		<head>
+			<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="game.css">
+			<script type="text/javascript" href=""></script>
+		</head>
+    <body>
+		<main>
+		<canvas></canvas>
+		</main>
+		</body>
+		</html>
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+		html, body {
+			margin: 0 auto;
+		}
+
+		* {
+			-webkit-box-sizing:  border-box;
+			   -moz-box-sinzing: border-box;
+			        box-sizeing: border-box;
+		}
+
+		main {
+			margin: 0 auto;
+			width: 990px;
+		}
+
+		canvas {
+			background-color: #000000;
+			margin: 0 auto;
+            width: 990px;
+            height: 400px;            
+		}
+		
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+		var PosicionX = 0;
+		var PosicionY = 0;
+		var canvas;
+		var contexto;
+		var fondo = new Image();
+		var fondoAnterior = new Image(); 
+		var dibujoNave = new Image();
+		var PosicionAnteriorX = 0;
+		var PosicionAnteriorY = 0;
+
+
+
+
