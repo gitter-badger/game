@@ -37,10 +37,7 @@ game usando canvas
 		}
 
 		canvas {
-			background-color: #000000;
 			margin: 0 auto;
-            width: 990px;
-            height: 400px;            
 		}
 		
 //////////////////////////////////////////////////////////////////////////////////////////
