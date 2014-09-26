@@ -13,7 +13,7 @@ game usando canvas
 		</head>
     <body>
 		<main>
-		<canvas></canvas>
+		<canvas id="miCanvas"></canvas>
 		</main>
 		</body>
 		</html>
