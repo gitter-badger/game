@@ -1,0 +1,37 @@
+game
+====
+
+game usando canvas
+
+		<!DOCTYPE html>
+
+		<html leng="en">
+		<head>
+			<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="game.css">
+			<script type="text/javascript" href="game.js"></script>
+		</head>
+		<body>
+		 <main>  
+
+         <article id="playground"> 
+         <section id="welcomeScreen">
+         	
+         </section>
+
+         <section>
+            <section id="loadingBar"></section><br />
+            <center><a id="startbutton">click here to show the demo</a></center>
+         </section>
+
+         </section>
+         </article>
+		<canvas></canvas>
+		</main>
+
+		</body>
+		</html>
+
+
+
+
